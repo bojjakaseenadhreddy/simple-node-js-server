@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Simple Node Js server",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "author": "Kaseenadh Reddy bojja",
   "license": "MIT",
   "devDependencies": {
